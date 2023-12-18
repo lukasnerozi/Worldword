@@ -1,0 +1,7 @@
+.inputText{
+    border: none;
+    border-radius: 8px;
+    outline: 1px solid #ccc;
+    padding: 20px;
+    font-size: 20px;
+}
