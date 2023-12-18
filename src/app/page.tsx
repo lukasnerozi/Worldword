@@ -1,8 +1,8 @@
 "use client";
 
-import { Leaf } from "phosphor-react";
+import { ArrowsClockwise, Leaf } from "phosphor-react";
 import Container from "../../components/Container";
-import styled, { useTheme } from "styled-components";
+import styled from "styled-components";
 import styles from "./page.module.css";
 import { FormEvent, useMemo, useState } from "react";
 import Link from "next/link";
@@ -167,6 +167,11 @@ export default function Home() {
       <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
         <Title>{msg}</Title>
         <h3>Palavra: {palavraVez?.palavra}</h3>
+        <ArrowsClockwise
+          onClick={() => window.location.reload()}
+          size={32}
+          weight="fill"
+        />
       </Modal>
     </>
   );

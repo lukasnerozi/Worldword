@@ -7,7 +7,7 @@ const ModalContainer = styled.div<ModalProps>`
   display: flex;
   width: 100%;
   max-width: 450px;
-  max-height: 100px;
+  max-height: 160px;
   height: 100%;
   padding: 32px;
   border-radius: 20px;
