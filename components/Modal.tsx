@@ -7,7 +7,8 @@ const ModalContainer = styled.div<ModalProps>`
   display: flex;
   width: 100%;
   max-width: 450px;
-  max-height: 160px;
+  max-height: 190px;
+  margin: 20px;
   height: 100%;
   padding: 32px;
   border-radius: 20px;
@@ -21,7 +22,9 @@ const ModalContainer = styled.div<ModalProps>`
 
 const StyledModal = styled.div<ModalProps>`
   width: 100vw;
+
   display: flex;
+  padding: 10px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -39,6 +42,7 @@ const ModalOverlay = styled.div`
   background: rgba(0, 0, 0, 0.3);
   width: 100%;
   position: absolute;
+
   height: 100%;
   display: flex;
   flex-direction: flex;
